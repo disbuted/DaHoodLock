@@ -33,12 +33,6 @@ local FindFirstChild = Instancenew("Part").FindFirstChild
 local tableremove = table.remove
 local tableinsert = table.insert
 
-game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "Silent Aim Loaded", -- Required
-	Text = "Made By Realism", -- Required
-	Icon = "rbxassetid://1234567890" -- Optional
-})
-
 -- // Silent Aim Vars
 getgenv().Aiming = {
     Enabled = true,
