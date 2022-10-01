@@ -33,8 +33,6 @@ local FindFirstChild = Instancenew("Part").FindFirstChild
 local tableremove = table.remove
 local tableinsert = table.insert
 
-announce('Silent Aim Loaded', 'Dev: realism:7323', 10)
-
 -- // Silent Aim Vars
 getgenv().Aiming = {
     Enabled = true,
